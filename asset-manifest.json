@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/bagfacecovid/static/js/main.a5089c44.js",
+    "main.js": "/bagfacecovid/static/js/main.e95411b7.js",
     "index.html": "/bagfacecovid/index.html",
-    "main.a5089c44.js.map": "/bagfacecovid/static/js/main.a5089c44.js.map"
+    "main.e95411b7.js.map": "/bagfacecovid/static/js/main.e95411b7.js.map"
   },
   "entrypoints": [
-    "static/js/main.a5089c44.js"
+    "static/js/main.e95411b7.js"
   ]
 }
