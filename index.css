@@ -1,0 +1,89 @@
+@import url("http://fonts.cdnfonts.com/css/soleto-trial");
+* {
+  box-sizing: border-box;
+
+  margin: 0;
+}
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+body {
+  font-family: "Soleto Trial", sans-serif;
+  padding: 5px;
+  height: 100vh;
+}
+h1 {
+  margin-top: 2px;
+  color: #35496a;
+  font-weight: 700;
+  font-size: calc(2em + 3vmin);
+}
+h2 {
+  margin-top: 2px;
+  color: #55657c;
+  font-weight: 500;
+  font-size: calc(0.75em + 0.7vmin);
+}
+h4 {
+  margin-top: 2px;
+
+  font-size: calc(0.5em + 0.7vmin);
+  font-weight: 500;
+  color: #8290ab;
+}
+
+h5 {
+  margin-top: 2px;
+  font-size: calc(0.6em + 0.7vmin);
+  font-weight: 300;
+  color: #596482;
+}
+h6 {
+  margin-top: 2px;
+  font-size: calc(0.6em + 0.7vmin);
+  font-weight: 500;
+  color: #354554;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: calc(2em + 3vmin);
+  }
+  h2 {
+    font-size: calc(0.75em + 2vmin);
+  }
+  h4 {
+    font-size: calc(0.5em + 2vmin);
+  }
+
+  h5 {
+    font-size: calc(0.6em + 2vmin);
+  }
+  h6 {
+    font-size: calc(0.6em + 2vmin);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  h1 {
+    font-size: calc(2em + 2vmin);
+  }
+  h2 {
+    font-size: calc(0.75em + 1.3vmin);
+  }
+  h4 {
+    font-size: calc(0.5em + 1.3vmin);
+  }
+
+  h5 {
+    font-size: calc(0.6em + 1.3vmin);
+  }
+  h6 {
+    font-size: calc(0.6em + 1.3vmin);
+  }
+}
